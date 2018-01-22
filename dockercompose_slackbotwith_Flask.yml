@@ -1,0 +1,10 @@
+version: '3'
+services:
+    slackbot:
+        build: slackbotroot_dir/.
+        restart: always
+    flaskforslackbot:
+        build: Flaskroot_dir/.
+        restart: always
+        ports:
+            - "5000:5000"
