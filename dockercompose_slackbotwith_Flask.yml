@@ -6,5 +6,3 @@ services:
     flaskforslackbot:
         build: Flaskroot_dir/.
         restart: always
-        ports:
-            - "5000:5000"
